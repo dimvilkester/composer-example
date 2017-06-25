@@ -1,0 +1,21 @@
+{
+    "name": "dimvilkester/composer-example-package",
+    "description": "example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dmitry Vilkin",
+            "email": "dimvilkester@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dimvilkester\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
