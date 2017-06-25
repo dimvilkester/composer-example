@@ -5,7 +5,7 @@ namespace dimvilkester\parser;
 /**
  * @author Dmitry Vilkin <dimvilkester@gmail.com>
  */
-class Parser implements IParser
+class CParser implements IParser
 {
     public function process(string $url, string $tag): array
     {  
